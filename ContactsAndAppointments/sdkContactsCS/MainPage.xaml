@@ -74,7 +74,7 @@
                         <Button Grid.Row="2" Grid.ColumnSpan="2" Content="search" Click="SearchContacts_Click"/>
                     </Grid>
 
-                    <TextBlock Name="ContactResultsLabel" Text="Search for contacts" TextWrapping="Wrap" Margin="12,0,0,0" />
+                    <TextBlock Name="ContactResultsLabel" Text="Search for Contacts" TextWrapping="Wrap" Margin="12,0,0,0" />
 
                     <ListBox Name="ContactResultsData" ItemsSource="{Binding}" Tap="ContactResultsData_Tap" Height="400" Margin="24,5,0,0" >
                         <ListBox.ItemTemplate>
